@@ -1,0 +1,118 @@
+:root {
+    color-scheme: dark;
+    font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+    color: #ffffff;
+    background: #24104f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background:
+        radial-gradient(circle at 15% 20%, rgba(90, 178, 255, 0.3), transparent 34%),
+        radial-gradient(circle at 85% 80%, rgba(206, 90, 255, 0.28), transparent 32%),
+        linear-gradient(135deg, #101b4d 0%, #382070 52%, #681d78 100%);
+}
+
+.card {
+    width: min(100%, 620px);
+    padding: clamp(32px, 7vw, 58px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 28px;
+    background: rgba(20, 18, 61, 0.62);
+    box-shadow: 0 24px 70px rgba(5, 8, 35, 0.42);
+    backdrop-filter: blur(18px);
+    text-align: center;
+}
+
+.eyebrow {
+    color: #bcd8ff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+h1 {
+    margin: 14px 0 12px;
+    font-size: clamp(2rem, 6vw, 3.25rem);
+    line-height: 1.1;
+}
+
+.intro {
+    margin: 0 auto 32px;
+    color: #d7d9f4;
+    line-height: 1.6;
+}
+
+h2 {
+    margin: 0 0 14px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.menu {
+    display: grid;
+    gap: 12px;
+    text-align: left;
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+    text-decoration: none;
+    transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+}
+
+.menu-link:hover,
+.menu-link:focus-visible {
+    border-color: rgba(177, 213, 255, 0.65);
+    background: rgba(255, 255, 255, 0.16);
+    transform: translateY(-3px);
+}
+
+.menu-link strong,
+.menu-link small {
+    display: block;
+}
+
+.menu-link small {
+    margin-top: 5px;
+    color: #c7c9e9;
+    font-size: 0.85rem;
+}
+
+.arrow {
+    color: #b9d9ff;
+    font-size: 1.5rem;
+}
+
+.footer-note {
+    margin: 30px 0 0;
+    color: #c7c9e9;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+@media (max-width: 480px) {
+    .card {
+        border-radius: 22px;
+    }
+
+    .menu-link {
+        padding: 16px;
+    }
+}

@@ -1,0 +1,14 @@
+What (Apa itu Spring?):
+Spring adalah framework (kerangka kerja) berbasis bahasa Java yang populer digunakan untuk membangun aplikasi backend atau web service dengan cepat, rapi, dan terstruktur.
+
+Why (Kenapa pakai Spring?):
+Karena Spring punya fitur Dependency Injection (DI) yang bikin kodenya gampang diatur, tidak perlu bikin semua fitur dari mentah, dan sudah sangat standar di dunia industri kerja.
+
+When (Kapan kita harus pakai Spring?):
+Saat kita mau membuat aplikasi skala menengah hingga besar (seperti sistem kampus, e-commerce, atau aplikasi perusahaan) yang butuh keamanan, kestabilan, dan pengelolaan data yang kompleks.
+
+Who (Siapa penemunya?):
+Pertama kali dikembangkan oleh Rod Johnson dan dirilis pada tahun 2003, lalu sekarang dikembangkan oleh perusahaan bernama VMware / Pivotal.
+
+Where (Di mana biasanya digunakan?):
+Digunakan di berbagai server perusahaan besar di seluruh dunia untuk mengatur logika bisnis di balik layar (backend).
